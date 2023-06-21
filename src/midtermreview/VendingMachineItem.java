@@ -10,8 +10,9 @@ import java.util.Scanner;
  * @author Paul Bonenfant, Feb 2022
  */
 public class VendingMachineItem {
+    
 
-    public double price;
+    private double price;
     public static String[] items = {"Chocolate Bar", "Sour Candy", "Potato Chips", "Pretzels"};
 
     public VendingMachineItem() {
